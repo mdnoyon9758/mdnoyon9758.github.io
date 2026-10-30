@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ScanMate AI – PDF Scanner for Android</title>
-<meta name="description" content="ScanMate AI turns paper into clean PDFs. No watermark, no account, offline text recognition in Bangla and 40+ languages. Coming soon to Google Play.">
+<title>ScanMate AI: PDF Scanner &amp; OCR for Android – free on Google Play</title>
+<meta name="description" content="Free document scanner and PDF reader for Android: scan to clean PDFs, offline OCR in Bangla and 40+ languages, job-application photo and signature at the right size, 30+ PDF tools. No watermark, no account. Get it on Google Play.">
 <link rel="canonical" href="https://scanmate.me/">
 <link rel="icon" href="favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="assets/icon-192.png">
 <meta name="theme-color" content="#1F5FD6">
 <meta property="og:type" content="website">
-<meta property="og:title" content="ScanMate AI – PDF Scanner for Android">
-<meta property="og:description" content="Scan to clean PDFs. No watermark, no account, offline Bangla OCR. Coming soon to Google Play.">
+<meta property="og:title" content="ScanMate AI: PDF Scanner &amp; OCR, free on Google Play">
+<meta property="og:description" content="Scan to clean PDFs, read any PDF, copy text in Bangla offline, make job photos and signatures at the right size. No watermark, no account.">
 <meta property="og:url" content="https://scanmate.me/">
 <meta property="og:image" content="https://scanmate.me/assets/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -22,10 +22,13 @@
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "ScanMate AI – PDF Scanner",
-  "operatingSystem": "Android",
+  "name": "ScanMate AI: PDF Scanner & OCR",
+  "operatingSystem": "Android 7.0 or newer",
   "applicationCategory": "UtilitiesApplication",
-  "description": "Document scanner that turns paper into clean PDFs, with offline text recognition in Bangla and 40+ languages, PDF tools and optional AI.",
+  "softwareVersion": "1.18.0",
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.scanmateai.app",
+  "installUrl": "https://play.google.com/store/apps/details?id=com.scanmateai.app",
+  "description": "Free document scanner and PDF reader: scan to clean PDFs, offline text recognition in Bangla and 40+ languages, job-application photos and signatures, 30+ PDF tools and optional AI.",
   "author": { "@type": "Organization", "name": "Tiny Pixel Studio" },
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
   "image": "https://scanmate.me/assets/icon-512.png"
@@ -63,6 +66,7 @@
   header.top nav a { color: #DCE6FF; text-decoration: none; font-weight: 500; font-size: 15px; }
   header.top nav a:hover { color: #fff; }
   @media (max-width: 600px) { header.top nav a.opt { display: none; } }
+  header.top nav a.get { background: #fff; color: var(--brand-deep); padding: 4px 12px; border-radius: 10px; font-weight: 800; }
 
   /* Hero */
   .hero { background: linear-gradient(160deg, var(--brand) 0%, var(--brand-deep) 100%); color: var(--hero-fg); }
@@ -102,7 +106,7 @@
   .shots figcaption { font-size: 14px; color: var(--muted); margin-top: 8px; }
 
   /* Features */
-  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+  .grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
   .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 22px; }
   .card h3 { margin: 0 0 8px; font-size: 18px; }
   .card p, .card ul { margin: 0; color: var(--muted); font-size: 15px; }
@@ -131,7 +135,7 @@
   summary { cursor: pointer; font-weight: 700; }
   details p { color: var(--muted); margin: 10px 0 0; }
 
-  /* Coming soon */
+  /* Get the app */
   .soon { text-align: center; }
   .soon .box { background: linear-gradient(160deg, var(--brand) 0%, var(--brand-deep) 100%); color: #fff; border-radius: 26px; padding: 44px 22px; }
   .soon h2 { color: #fff; }
@@ -151,7 +155,8 @@
       <a class="opt" href="#screens">Screens</a>
       <a class="opt" href="#features">Features</a>
       <a href="#pricing">Pricing</a>
-      <a href="privacy.html">Privacy</a>
+      <a class="opt" href="privacy.html">Privacy</a>
+      <a class="get" href="https://play.google.com/store/apps/details?id=com.scanmateai.app&amp;referrer=utm_source%3Dscanmate.me%26utm_medium%3Dwebsite">Get the app</a>
     </nav>
   </div>
 </header>
@@ -160,14 +165,14 @@
 <section class="hero" style="padding:0">
   <div class="wrap">
     <div>
-      <span class="pill"><span class="dot"></span>Coming soon to Google Play</span>
+      <span class="pill"><span class="dot"></span>Now on Google Play · free</span>
       <h1>Scan to clean PDFs in seconds</h1>
-      <p class="lead">ScanMate AI finds the page, removes shadows and colour cast, and reads the text, even in Bangla, without the internet. No watermark. No account. No subscription.</p>
+      <p class="lead">ScanMate AI finds the page, removes shadows and colour cast, and reads the text, even in Bangla, without the internet. It also opens any PDF, makes job-application photos and signatures at the right size, and has 30+ PDF tools. No watermark. No account. No subscription.</p>
       <div class="cta">
-        <span class="btn primary disabled" aria-disabled="true">▶ Google Play<small>Releasing soon</small></span>
-        <a class="btn ghost" href="mailto:support@scanmate.me?subject=ScanMate%20AI%20beta">Join the beta</a>
+        <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.scanmateai.app&amp;referrer=utm_source%3Dscanmate.me%26utm_medium%3Dwebsite"><span aria-hidden="true">▶</span><span>Get it on Google Play<small>Free · Android 7.0 and newer</small></span></a>
+        <a class="btn ghost" href="#features">See what it does</a>
       </div>
-      <div class="facts"><span>Free</span><span>No watermark</span><span>Works offline</span><span>Bangla OCR</span></div>
+      <div class="facts"><span>Free</span><span>No watermark</span><span>Works offline</span><span>Bangla OCR</span><span>PDF reader</span></div>
     </div>
     <div>
       <div class="video-card v-landscape">
@@ -190,12 +195,15 @@
     <p class="sub">Real screens from the app. Swipe for more.</p>
     <div class="shots">
       <figure><img src="assets/shot-1.jpg" alt="Home screen with recent documents and a large Scan button" width="540" height="1170" loading="lazy"><figcaption>Scan to PDF</figcaption></figure>
-      <figure><img src="assets/shot-2.jpg" alt="Tools screen with more than 30 PDF and image tools" width="540" height="1170" loading="lazy"><figcaption>30+ PDF tools</figcaption></figure>
-      <figure><img src="assets/shot-3.jpg" alt="Markup editor with a signature, highlight, arrow and note on a bill" width="540" height="1170" loading="lazy"><figcaption>Sign and mark up</figcaption></figure>
-      <figure><img src="assets/shot-4.jpg" alt="Copy text from a marked area of a page" width="540" height="1170" loading="lazy"><figcaption>Copy text, offline</figcaption></figure>
-      <figure><img src="assets/shot-5.jpg" alt="Translate screen with Bangla, Hindi, Arabic and other languages" width="540" height="1170" loading="lazy"><figcaption>Translate and explain</figcaption></figure>
-      <figure><img src="assets/shot-6.jpg" alt="QR code result showing a Wi-Fi network with copy password button" width="540" height="1170" loading="lazy"><figcaption>Scan QR codes</figcaption></figure>
-      <figure><img src="assets/shot-7.jpg" alt="ID card copy with front and back on one page" width="540" height="1170" loading="lazy"><figcaption>ID card copies</figcaption></figure>
+      <figure><img src="assets/shot-2.jpg" alt="Page editor with the Magic Color filter on an invoice" width="540" height="1170" loading="lazy"><figcaption>Clean pages, one tap</figcaption></figure>
+      <figure><img src="assets/shot-3.jpg" alt="PDF reader showing a bill with search, pages, bookmark and night mode buttons" width="540" height="1170" loading="lazy"><figcaption>Read any PDF</figcaption></figure>
+      <figure><img src="assets/shot-4.jpg" alt="Tools screen with scan, edit PDF and convert tools" width="540" height="1170" loading="lazy"><figcaption>30+ PDF tools</figcaption></figure>
+      <figure><img src="assets/shot-5.jpg" alt="Job form photo, 300 by 300 pixels, 10 KB, on a white background" width="540" height="1170" loading="lazy"><figcaption>Job form photo</figcaption></figure>
+      <figure><img src="assets/shot-6.jpg" alt="Job form signature, 300 by 80 pixels, 7 KB" width="540" height="1170" loading="lazy"><figcaption>Job form signature</figcaption></figure>
+      <figure><img src="assets/shot-7.jpg" alt="Copy text from a marked area of a page" width="540" height="1170" loading="lazy"><figcaption>Copy text, offline</figcaption></figure>
+      <figure><img src="assets/shot-8.jpg" alt="Markup editor with a highlight, a circle, an arrow and a note on a bill" width="540" height="1170" loading="lazy"><figcaption>Sign and mark up</figcaption></figure>
+      <figure><img src="assets/shot-9.jpg" alt="ID card copy with the front and back on one page" width="540" height="1170" loading="lazy"><figcaption>ID card copies</figcaption></figure>
+      <figure><img src="assets/shot-10.jpg" alt="QR code result showing a Wi-Fi network with a Copy password button" width="540" height="1170" loading="lazy"><figcaption>Scan QR codes</figcaption></figure>
     </div>
   </div>
 </section>
@@ -203,14 +211,17 @@
 <section id="features" style="padding-top:0">
   <div class="wrap">
     <h2>Everything you need from a scanner</h2>
-    <p class="sub">Built for everyday paperwork: bills, forms, receipts, notes, ID cards and books.</p>
+    <p class="sub">Built for everyday paperwork: bills, forms, receipts, notes, ID cards, books and job applications.</p>
     <div class="grid">
-      <div class="card"><div class="ico">⌗</div><h3>Smart scanning</h3><p>Live edge detection, auto capture, many pages in a row. Modes for documents, ID cards, books and QR codes.</p></div>
-      <div class="card"><div class="ico">✦</div><h3>Clean filters</h3><p>Smart Auto, Magic Color, No shadow, Gray, B&amp;W and B&amp;W + colour. Shadows and yellow light removed, faint writing kept.</p></div>
-      <div class="card"><div class="ico">Aa</div><h3>Read text offline</h3><p>Copy the text of a page or any area. Latin languages built in; add Bangla, Hindi, Arabic, Urdu, Chinese and 30+ more with one tap.</p></div>
-      <div class="card"><div class="ico">⎘</div><h3>PDF tools</h3><p>Merge, split, page size, compress to a size, password, watermark, page numbers, print, to images, to Word.</p></div>
-      <div class="card"><div class="ico">✎</div><h3>Sign and fill forms</h3><p>Your signature, text, dates and ✓ marks. Markup with pen, highlighter, arrows and notes. Hide private numbers.</p></div>
-      <div class="card"><div class="ico">◇</div><h3>Optional AI</h3><p>Explain, summarize, translate, homework help, tables to Excel, with your own free API key. Everything else works without AI.</p></div>
+      <div class="card"><div class="ico">⌗</div><h3>Scan documents to PDF</h3><p>The camera finds the page edges, focuses on the page and takes the photo when it is steady. Many pages in a row, photos from the gallery, or PDFs. Modes for documents, ID cards, books and QR codes.</p></div>
+      <div class="card"><div class="ico">✦</div><h3>Clean pages</h3><p>Magic Color, No shadow, Gray, B&amp;W and B&amp;W + colour. Smart Auto picks the right look for receipts, notebooks, faded print and forms.</p></div>
+      <div class="card"><div class="ico">⤢</div><h3>Edit page by page</h3><p>Crop with a magnifier, rotate, then swipe to the next page: each page is saved as you go. Drag pages into order, erase marks or fingers.</p></div>
+      <div class="card"><div class="ico">◉</div><h3>Job applications and ID photos</h3><p>Job form photo 300 × 300 px under 100 KB, signature 300 × 80 px under 60 KB, passport and visa photos ready to print, and PDFs compressed to the size a form asks for.</p></div>
+      <div class="card"><div class="ico">▤</div><h3>PDF reader</h3><p>Open any PDF from WhatsApp, Gmail, Telegram or Files. Search, copy, night mode, bookmarks; password PDFs like bank statements; old Bijoy-font Bangla made searchable.</p></div>
+      <div class="card"><div class="ico">⎘</div><h3>PDF tools</h3><p>Merge, split, compress, page size, PDF to JPG, long image, password, watermark, page numbers, print, to Word and Excel, searchable PDFs.</p></div>
+      <div class="card"><div class="ico">Aa</div><h3>Text recognition, offline</h3><p>Copy the text of a page or any area. Bangla, Hindi, Arabic, Urdu, Chinese and 40+ languages on your phone, no internet needed. Read aloud, or save as Word or text.</p></div>
+      <div class="card"><div class="ico">✎</div><h3>Sign and fill forms</h3><p>Your signature, text, dates and ✓ marks. Mark up with pen, highlighter and arrows. Hide private numbers with black boxes.</p></div>
+      <div class="card"><div class="ico">◇</div><h3>Optional AI</h3><p>Explain, summarize, translate, homework help, tables to Excel, with your own API key (Google Gemini has a free tier). Every scanner, PDF and text tool works without AI.</p></div>
     </div>
   </div>
 </section>
@@ -233,9 +244,9 @@
       <div class="plan best">
         <h3>ScanMate Pro</h3>
         <div class="price">$3.99</div>
-        <div class="note">One payment, yours for life</div>
+        <div class="note">One payment, yours for life. Google Play shows the price in your currency.</div>
         <ul>
-          <li>Every Pro tool: password, compress to a size, watermark, page numbers, To Word/Excel, long image, ID photo, B&amp;W + colour</li>
+          <li>Every Pro tool: B&amp;W + colour, To Word, To Excel, password, compress to a size, page numbers, watermark, long image, ID photo</li>
           <li>No ads at all</li>
           <li>Restores on your other phones with the same Google account</li>
         </ul>
@@ -250,7 +261,7 @@
     <p class="sub">The short version of our <a href="privacy.html">privacy policy</a>.</p>
     <ul class="checks">
       <li><strong>Your scans stay on your phone.</strong> Photos, PDFs and the text read from them are stored only in the app. We run no servers that receive them.</li>
-      <li><strong>No account needed.</strong> Open the app and scan. An optional PIN app lock keeps others out.</li>
+      <li><strong>No account needed.</strong> Open the app and scan. An optional PIN app lock keeps others out, and a backup to one file keeps your documents safe.</li>
       <li><strong>Text recognition runs on your device.</strong> Extra languages are downloaded once from the open-source Tesseract project; no document content is sent.</li>
       <li><strong>AI only when you choose.</strong> AI is off by default. If you turn it on with your own key, only that document goes straight from your phone to the provider you picked.</li>
       <li><strong>Ads from Google AdMob.</strong> Ads may use your advertising ID and approximate location. In Europe you are asked for consent first, and you can change it in Settings.</li>
@@ -263,10 +274,11 @@
   <div class="wrap">
     <h2>Questions</h2>
     <p class="sub">&nbsp;</p>
-    <details><summary>When will ScanMate AI be on Google Play?</summary><p>Very soon. The app is in closed testing on Google Play right now, which every new app must finish before it goes public.</p></details>
-    <details><summary>Can I try it before the release?</summary><p>Yes. Email <a href="mailto:support@scanmate.me?subject=ScanMate%20AI%20beta">support@scanmate.me</a> with the Google account you use on your phone and we'll add you to the test.</p></details>
+    <details><summary>Where do I get ScanMate AI?</summary><p>It is free on <a href="https://play.google.com/store/apps/details?id=com.scanmateai.app&amp;referrer=utm_source%3Dscanmate.me%26utm_medium%3Dwebsite">Google Play</a>, for Android 7.0 and newer.</p></details>
     <details><summary>Does it add a watermark?</summary><p>No. Your PDFs are clean, in the free version too.</p></details>
-    <details><summary>Does it read Bangla?</summary><p>Yes. Add Bangla once in the text recognition languages and it works offline. Hindi, Arabic, Urdu and 30+ more are available too.</p></details>
+    <details><summary>Does it read Bangla?</summary><p>Yes. Add Bangla once in the text recognition languages and it works offline. Hindi, Arabic, Urdu and 40+ more are available too. Old PDFs typed in Bijoy fonts become real, searchable Bangla.</p></details>
+    <details><summary>Can it make the photo and signature for a job application?</summary><p>Yes. Tools › ID photo makes the job form photo (300 × 300 px, under 100 KB, white background) and the signature (300 × 80 px, under 60 KB) from a photo of your signature on paper, ready to upload.</p></details>
+    <details><summary>Can it open PDFs from WhatsApp or Gmail?</summary><p>Yes. Choose ScanMate AI when Android asks how to open a PDF, or open it from Tools › PDF reader. Password PDFs such as bank statements open too.</p></details>
     <details><summary>Do I need an AI subscription?</summary><p>No. All scanning, PDF and text tools work without AI. AI tools are optional and use your own key; Google Gemini has a free tier.</p></details>
   </div>
 </section>
@@ -274,9 +286,9 @@
 <section class="soon" style="padding-top:0">
   <div class="wrap">
     <div class="box">
-      <h2>Releasing soon on Google Play</h2>
-      <p>Want to be among the first? Join the beta, or come back here for the download link.</p>
-      <a class="btn primary" href="mailto:support@scanmate.me?subject=ScanMate%20AI%20beta">Join the beta</a>
+      <h2>Get ScanMate AI, free</h2>
+      <p>Scan, read and share your documents in seconds. Questions or ideas? Write to <a href="mailto:support@scanmate.me" style="color:#fff">support@scanmate.me</a>.</p>
+      <a class="btn primary" href="https://play.google.com/store/apps/details?id=com.scanmateai.app&amp;referrer=utm_source%3Dscanmate.me%26utm_medium%3Dwebsite">▶ Get it on Google Play</a>
     </div>
   </div>
 </section>
@@ -286,9 +298,11 @@
   <div class="wrap">
     <span class="brand">ScanMate AI</span>
     <span>Made by Tiny Pixel Studio</span>
+    <a href="https://play.google.com/store/apps/details?id=com.scanmateai.app&amp;referrer=utm_source%3Dscanmate.me%26utm_medium%3Dwebsite">Google Play</a>
     <a href="privacy.html">Privacy policy</a>
     <a href="mailto:support@scanmate.me">support@scanmate.me</a>
     <span>© 2026 Tiny Pixel Studio</span>
+    <span>Google Play is a trademark of Google LLC.</span>
   </div>
 </footer>
 </body>
